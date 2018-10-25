@@ -3,7 +3,7 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-def input_to_index(x)
+def input_to_index(number)
   puts "Enter a number from "1" - "9.""
-  x = gets.chomp.to_i
+  number = gets.chomp.to_i
 end
